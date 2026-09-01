@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Me | Shrishail</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ==============================
+         NAVIGATION
+    =============================== -->
+
+    <header>
+
+        <nav>
+
+            <h2>My Profile</h2>
+
+            <div>
+
+                <a href="index.html">Home</a>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==============================
+         CONTACT SECTION
+    =============================== -->
+
+    <main>
+
+        <section class="contact">
+
+
+            <!-- Heading -->
+
+            <div class="contact-heading">
+
+                <p>GET IN TOUCH</p>
+
+                <h1>
+                    Contact <span>Me</span>
+                </h1>
+
+                <p>
+                    Have a question or want to connect?
+                    Fill in the form below and get in touch with me.
+                </p>
+
+            </div>
+
+
+
+            <!-- Contact Information -->
+
+            <div class="contact-info">
+
+                <div class="contact-info-card">
+
+                    <h3>📧 Email</h3>
+
+                    <p>
+                        anagawadishrishail07@gmail.com
+                    </p>
+
+                </div>
+
+
+                <div class="contact-info-card">
+
+                    <h3>📱 Phone</h3>
+
+                    <p>
+                        +91 6360210645
+                    </p>
+
+                </div>
+
+
+                <div class="contact-info-card">
+
+                    <h3>📍 Location</h3>
+
+                    <p>
+                        Bagalkot, Karnataka
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==============================
+                 CONTACT FORM
+            =============================== -->
+
+            <form action="index.html" method="get">
+
+
+                <!-- Name -->
+
+                <label for="name">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+
+                <!-- Phone -->
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    pattern="[0-9]{10}"
+                    required
+                >
+
+
+                <!-- Email -->
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <!-- Gender -->
+
+                <label>
+                    Gender
+                </label>
+
+                <div class="gender">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Male"
+                            required
+                        >
+                        Male
+                    </label>
+
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Female"
+                        >
+                        Female
+                    </label>
+
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Other"
+                        >
+                        Other
+                    </label>
+
+                </div>
+
+
+                <!-- Age -->
+
+                <label for="age">
+                    Age
+                </label>
+
+                <input
+                    type="number"
+                    id="age"
+                    name="age"
+                    min="1"
+                    max="100"
+                    placeholder="Enter your age"
+                    required
+                >
+
+
+                <!-- Date of Birth -->
+
+                <label for="dob">
+                    Date of Birth
+                </label>
+
+                <input
+                    type="date"
+                    id="dob"
+                    name="dob"
+                    required
+                >
+
+
+                <!-- Submit -->
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+
+
+            <!-- Navigation Buttons -->
+
+            <div class="contact-buttons">
+
+                <a href="index.html">
+
+                    <button type="button">
+                        ← Home
+                    </button>
+
+                </a>
+
+
+                <a href="about.html">
+
+                    <button type="button">
+                        About Me
+                    </button>
+
+                </a>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==============================
+         FOOTER
+    =============================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Shrishail | My Portfolio
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
